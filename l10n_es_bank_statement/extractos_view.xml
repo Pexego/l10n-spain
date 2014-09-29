@@ -43,6 +43,7 @@
         <menuitem id="menu_extractos_bancarios_concepto" name="Default accounts associated to C43 codes" parent="menu_extractos_bancarios" action="action_extractos_concepto"/>
 
     <!--************************** Redefinición on_change de las líneas de extracto bancario *******************************-->
+    <!--
         <record id="view_bank_statement_form_ES1" model="ir.ui.view">
             <field name="name">account.bank.statement.form.ES1</field>
             <field name="model">account.bank.statement</field>
@@ -90,7 +91,7 @@
                 </xpath>
             </field>
         </record>
-
+-->
 
 	<!-- Import wizard -->
         <record model="ir.ui.view" id="extractos_import_wizard">
